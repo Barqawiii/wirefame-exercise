@@ -6,6 +6,7 @@ html{
     text-align: center;
 }
 body{
+    clear: both;
     width: 100%;
     margin: 0 auto;
     
@@ -59,16 +60,55 @@ p{
     font-size: 40px;
 }
 .left{
-     float: left;
-     margin-left: 196px; 
+      float: left; 
+     margin-left: 400px;
 }
 .right{
-    text-align: right;
+    float: right; 
+    
+    /* text-align: right; */
     overflow: scroll;
    
     width: 480px;
     height: 350px;
   
 }
-
+.article-section {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  .article-img {
+    float: left;
+    position: relative;
+    padding: 1rem;
+  }
+  
+  .article-text {
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+  }
+  .article-text h2 {
+    font-size: 2.1rem;
+  }  
+  .article-text p {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: auto;
+    height: 19rem;
+  }
+  .btn {
+ 
+   
+    width: 15rem;
+    border: 0;
+    height: 2rem;
+    cursor: pointer;
+  }
+  .div-num2{
+    width: 1000px;
+    margin: auto;
+  }
  
