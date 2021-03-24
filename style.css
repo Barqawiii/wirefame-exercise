@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html{
-    background-color: rgb(100, 208, 241);
+    
     text-align: center;
 }
 body{
@@ -15,13 +15,15 @@ nav{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: lightsalmon;
+    background-color:rgb(29, 26, 26)
    
 }
 
 nav ul li{
     font-size: 25px;
-    padding: 38px;
+    padding: 37px;
+    color: darkgray;
+    
    
 }
 
@@ -42,9 +44,10 @@ ul{
 }
 .footer {
     clear: both;
-    background-color: lightsalmon;
     padding: 50px;
     text-align: center;
+    background-color:rgb(29, 26, 26);
+    margin-top: 50px;
   }
 .images{
     width:300px;
@@ -52,7 +55,7 @@ ul{
 }
 p{
    
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
 }
 .left{
@@ -62,7 +65,7 @@ p{
 .right{
     text-align: right;
     overflow: scroll;
-    border: 10px solid gray;
+   
     width: 480px;
     height: 350px;
   
