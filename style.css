@@ -129,5 +129,7 @@ p{
   .nav-bar{
     padding: 10px;
   }
-
+.btn:hover  {
+  color: crimson;
+}
  
