@@ -16,7 +16,7 @@ nav{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color:rgb(29, 26, 26)
+    background-color:rgb(70, 70, 70);
    
 }
 
@@ -34,7 +34,7 @@ div{
     text-align: center;
 }
 li{
-    
+  text-decoration: none;
     display: inline;
    
    
@@ -90,7 +90,7 @@ p{
     font-weight: bold;
   }
   .article-text h2 {
-    font-size: 2.1rem;
+    font-size: 20px;
   }  
   .article-text p {
     font-size: 1.1rem;
@@ -100,15 +100,34 @@ p{
     height: 19rem;
   }
   .btn {
- 
-   
+    color: blanchedalmond;
+    background-color: black;
     width: 15rem;
     border: 0;
-    height: 2rem;
+    height: 40px;
+    width:150px;
     cursor: pointer;
+    margin: 10px;
   }
   .div-num2{
-    width: 1000px;
+    width: 1300px;
     margin: auto;
   }
+  .div-num1{
+    padding-top: 30px;
+  }
+  .nav-bar ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    
+  
+  }
+  #nav-image {
+    padding-top: 10px;
+  }
+  .nav-bar{
+    padding: 10px;
+  }
+
  
